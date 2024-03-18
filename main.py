@@ -16,7 +16,7 @@ MAX_COL = 10
 class Block:
     # ブロックの設定
     def __init__(self, block_type):
-        self.shapes = [[], [],  # empty block and wall
+        self.shapes = [[], [],  # 空
                        [[0, -1], [0, 0], [0, 1], [0, 2]],  # I block
                        [[-1, -1], [0, -1], [0, 0], [0, 1]],  # J block
                        [[0, -1], [0, 0], [0, 1], [-1, 1]],  # L block
