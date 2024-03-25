@@ -23,11 +23,11 @@ class Block:
                        [[0, -1], [0, 0], [-1, 0], [-1, 1]],  # S blosk
                        [[-1, -1], [-1, 0], [0, 0], [0, 1]],  # Z block
                        [[0, -1], [0, 0], [-1, 0], [0, 1]],  # T block
-                       [[0, 0], [-1, 0], [0, 1], [-1, 1]]]  # square
+                       [[0, 0], [-1, 0], [0, 1], [-1, 1]]]  # 四角
 
         self.block_type = block_type
         self.shape = copy.deepcopy(self.shapes[block_type])
-        self.row = 1  # initial position
+        self.row = 1  # 初期位置
         self.col = 5
         self.level = 0
         self.drop_rate = [60, 50, 45, 42, 39, 36, 35, 34, 33, 32, 31,
